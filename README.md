@@ -23,6 +23,21 @@ This project is primarily a collection of prompts and images. To reproduce or co
 - Files in this repo may contain iterative drafts and experimental prompts.
 - No executable code is included — this is a design asset repository.
 
+## Commit message hook (optional)
+
+This repo includes a tracked commit-msg hook script at `scripts/commit-msg-hook.sh` that enforces Conventional Commits.
+
+To install the hook locally (without npm/husky):
+
+1. Copy the tracked script into your local Git hooks folder and make it executable:
+
+```powershell
+cp .\scripts\commit-msg-hook.sh .git\hooks\commit-msg
+icacls .git\hooks\commit-msg /grant %USERNAME%:RX
+```
+
+2. Now your commits will be validated for Conventional Commit format. If you prefer an npm-based setup, install Node.js and run `npm install` then `npm run prepare`.
+
 ## License
 
 Include a license file if you intend to share or reuse these assets publicly.
