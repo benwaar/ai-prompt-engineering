@@ -15,6 +15,7 @@ This repository stores prompt resources, macros, and rendered assets produced wh
 
 - Getting started guide: `docs/GETTING_STARTED.md`
  - Developer setup: `docs/DEVELOPER_SETUP.md`
+ - Copilot prompts: `docs/COPILOT_PROMPTS.md` — copy/paste-ready generator prompts
 - Tracked commit-msg hook: `scripts/commit-msg-hook.sh` (copy to `.git/hooks/commit-msg` to enable)
 - Commitlint/Husky config placeholder: `package.json`, `commitlint.config.cjs` (requires Node/npm to activate)
 - License: [LICENSE](LICENSE)
