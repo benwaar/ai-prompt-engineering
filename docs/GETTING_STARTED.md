@@ -13,8 +13,10 @@ At the very top of that file, copy the contents of
 
 Then, below that, keep the pipeline body.
 
+
 It’ll look like this:
 
+```
 # Pipeline: Card Back v1
 # -----------------------------------------------------
 # MACROS (imported)
@@ -49,6 +51,7 @@ Zen brush rings + thin sci-fi circuit tracery + faint Toki Pona glyphs along bor
 
 [OUTPUT]
 Render on matte graphite base, subtle embossed depth. Save as PNG.
+```
 
 🧭 3. Generate your first render
 
