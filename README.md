@@ -55,3 +55,7 @@ icacls .git\hooks\commit-msg /grant %USERNAME%:RX
 See [LICENSE](LICENSE) for terms. Code and prompt text are provided under a permissive
 grant; image assets are copyrighted by 1311.uk and excluded from that grant unless
 otherwise specified.
+
+## Final note
+
+If you'd like a guided study plan for exploring AI art prompt-engineering, see the companion document: `docs/AI_ART_PROMPT_STUDY_PLAN.md`.
