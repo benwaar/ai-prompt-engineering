@@ -1,0 +1,11 @@
+{
+  // Workspace preferences (minimal and valid)
+  "workbench.startupEditor": "readme",
+  "files.hotExit": "onExit",
+  "window.openFilesInNewWindow": "off",
+  "workbench.editor.restoreViewState": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/node_modules": true
+  }
+}
