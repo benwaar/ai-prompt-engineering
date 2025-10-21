@@ -40,5 +40,38 @@
       "presentation": { "reveal": "silent", "panel": "shared" },
       "problemMatcher": []
     }
+    ,
+    {
+      "label": "Prompt (background): Copy compact prompt",
+      "type": "shell",
+      "command": "powershell",
+      "args": ["-NoProfile","-ExecutionPolicy","Bypass","-Command","./scripts/expand_prompt.ps1 -Path prompts/pipelines/background_v1.md"],
+      "presentation": { "reveal": "silent", "panel": "shared" },
+      "problemMatcher": []
+    },
+    {
+      "label": "Prompt (background): Copy expanded prompt",
+      "type": "shell",
+      "command": "powershell",
+      "args": ["-NoProfile","-ExecutionPolicy","Bypass","-Command","./scripts/expand_prompt.ps1 -Path prompts/pipelines/background_v1.md --expand"],
+      "presentation": { "reveal": "silent", "panel": "shared" },
+      "problemMatcher": []
+    },
+    {
+      "label": "Prompt (background, bash): Copy compact prompt",
+      "type": "shell",
+      "command": "bash",
+      "args": ["-lc","./scripts/expand_prompt.sh -p prompts/pipelines/background_v1.md"],
+      "presentation": { "reveal": "silent", "panel": "shared" },
+      "problemMatcher": []
+    },
+    {
+      "label": "Prompt (background, bash): Copy expanded prompt",
+      "type": "shell",
+      "command": "bash",
+      "args": ["-lc","./scripts/expand_prompt.sh -p prompts/pipelines/background_v1.md --expand"],
+      "presentation": { "reveal": "silent", "panel": "shared" },
+      "problemMatcher": []
+    }
   ]
 }

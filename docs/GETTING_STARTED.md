@@ -66,6 +66,28 @@ Run it and save the result to:
 
 (or whatever today’s date/version is)
 
+Quick: copy the latest background prompt to clipboard
+
+If you want to generate the current background prompt quickly, use the helper script or the VS Code tasks.
+
+PowerShell (compact):
+
+```powershell
+.\scripts\expand_prompt.ps1 -Path prompts/pipelines/background_v1.md
+```
+
+PowerShell (expanded):
+
+```powershell
+.\scripts\expand_prompt.ps1 -Path prompts/pipelines/background_v1.md --expand
+```
+
+VS Code: Ctrl+Shift+P → Tasks: Run Task → choose one of:
+
+- "Prompt: Copy compact prompt (background)"
+- "Prompt: Copy expanded prompt (background)"
+
+
 🗂️ 4. Commit it all
 
 In your terminal inside the repo:
