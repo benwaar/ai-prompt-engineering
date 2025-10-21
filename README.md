@@ -2,7 +2,7 @@
 
 Prompt-engineering exercise using ChatGPT and DALL·E to create a card-back image for the "Utala" Trading Card Game.
 
-This repository stores the prompt resources and rendered assets produced while iterating on the card-back design.
+This repository stores prompt resources, macros, and rendered assets produced while iterating on the card-back design.
 
 ## Contents
 
@@ -10,6 +10,13 @@ This repository stores the prompt resources and rendered assets produced while i
 - `renders/` — final and intermediate render outputs (backgrounds, emblems, backs).
 - `docs/` — notes and changelog.
 - [Getting Started](docs/GETTING_STARTED.md) — step-by-step guide to run a pipeline and record results.
+
+## Included
+
+- Getting started guide: `docs/GETTING_STARTED.md`
+- Tracked commit-msg hook: `scripts/commit-msg-hook.sh` (copy to `.git/hooks/commit-msg` to enable)
+- Commitlint/Husky config placeholder: `package.json`, `commitlint.config.cjs` (requires Node/npm to activate)
+- License: [LICENSE](LICENSE)
 
 ## Usage
 
@@ -41,7 +48,6 @@ icacls .git\hooks\commit-msg /grant %USERNAME%:RX
 
 ## License
 
-Include a license file if you intend to share or reuse these assets publicly.
-See the `LICENSE` file for terms. Note: code and prompt text are provided under a
-permissive grant; image assets are copyrighted by 1311.uk and are excluded from
-that grant unless otherwise specified.
+See [LICENSE](LICENSE) for terms. Code and prompt text are provided under a permissive
+grant; image assets are copyrighted by 1311.uk and excluded from that grant unless
+otherwise specified.
