@@ -41,3 +41,6 @@ icacls .git\hooks\commit-msg /grant %USERNAME%:RX
 ## License
 
 Include a license file if you intend to share or reuse these assets publicly.
+See the `LICENSE` file for terms. Note: code and prompt text are provided under a
+permissive grant; image assets are copyrighted by 1311.uk and are excluded from
+that grant unless otherwise specified.
