@@ -1,8 +1,8 @@
-# Utala Card Back
+# AI Prompt Engineering
 
-Prompt-engineering exercise using ChatGPT and DALL·E to create a card-back image for the "Utala" Trading Card Game.
+Prompt-engineering exercise using ChatGPT and DALL·E to create a card back image for the "Utala" Trading Card Game.
 
-This repository stores prompt resources, macros, and rendered assets produced while iterating on the card-back design.
+This repository stores prompt resources, macros, and rendered assets produced while iterating on the card back design.
 
 Note: For the best experience open this project in VS Code and consider installing GitHub Copilot — see `docs/COPILOT_PROMPTS.md` for copy/paste-ready prompts.
 
