@@ -23,5 +23,22 @@
       },
       "problemMatcher": []
     }
+    ,
+    {
+      "label": "Prompt (bash): Copy compact prompt",
+      "type": "shell",
+      "command": "bash",
+      "args": ["-lc", "./scripts/expand_prompt.sh -p docs/COPILOT_PROMPTS.md"],
+      "presentation": { "reveal": "silent", "panel": "shared" },
+      "problemMatcher": []
+    },
+    {
+      "label": "Prompt (bash): Copy expanded prompt",
+      "type": "shell",
+      "command": "bash",
+      "args": ["-lc", "./scripts/expand_prompt.sh -p docs/COPILOT_PROMPTS.md --expand"],
+      "presentation": { "reveal": "silent", "panel": "shared" },
+      "problemMatcher": []
+    }
   ]
 }
