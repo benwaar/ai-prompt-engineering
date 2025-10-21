@@ -1,6 +1,13 @@
 # Copilot prompts — ready-to-copy DALL·E templates and process
 
+
 Purpose: provide a single place where Copilot (or any collaborator) can find copy/paste-ready prompts for DALL·E, Midjourney, or other generators. Keep prompts explicit, deterministic, and include a short negative/constraints section.
+
+Assistant behavior (important)
+
+- By default: do NOT expand macros when producing a copy/paste prompt block. Provide the pipeline with macro placeholders (e.g., `[UTALA_BASE_STYLE]`) so the prompt stays compact and easy to audit.
+- If the user explicitly requests debugging or expansion (for example by saying "debug prompt"), expand macros inline so the full expanded prompt is shown.
+- Alternatively, use the provided helper script `scripts/expand_prompt.ps1` to generate an expanded or compact prompt and copy it to the clipboard for pasting into DALL·E.
 
 How to use
 
