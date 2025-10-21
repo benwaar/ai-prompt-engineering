@@ -97,3 +97,12 @@ Saving and versioning
 - Commit prompt files and renders together to preserve prompt → output traceability.
 
 Keep this doc small and canonical — Copilot should use it as the source of truth for copy/paste prompts.
+
+Running the prompt helper from VS Code
+
+You can run two tasks from VS Code's "Run Task" palette (Ctrl+Shift+P → "Tasks: Run Task"):
+
+- "Prompt: Copy compact prompt" — copies the compact prompt (macros left as placeholders) to clipboard.
+- "Prompt: Copy expanded prompt" — copies the full expanded prompt (macros inlined) to clipboard.
+
+These tasks call `scripts/expand_prompt.ps1` and require PowerShell to be available in the PATH.
