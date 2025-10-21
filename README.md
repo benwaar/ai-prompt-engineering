@@ -9,7 +9,7 @@ This repository stores the prompt resources and rendered assets produced while i
 - `prompts/` — prompt text and macros used to generate images.
 - `renders/` — final and intermediate render outputs (backgrounds, emblems, backs).
 - `docs/` — notes and changelog.
- - `docs/GETTING_STARTED.md` — step-by-step guide to run a pipeline and record results.
+- [Getting Started](docs/GETTING_STARTED.md) — step-by-step guide to run a pipeline and record results.
 
 ## Usage
 
